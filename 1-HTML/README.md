@@ -1,6 +1,6 @@
-# HTML NOTES
+# HTML NOTES 
 
-----
+![image](https://github.com/itsme-rash522/frontend-freaks/assets/127365805/b11e5d31-0a9e-4db6-8e37-02fb89d3f213)
 
 ## Basic Structure
 
