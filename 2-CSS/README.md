@@ -2,8 +2,322 @@
 
 ![CSS logo](https://github.com/itsme-rash522/frontend-freaks/assets/127365805/a38212aa-5f78-4b0a-a7fd-314cba7d6cb2)
 
-## [CSS Basic]()
+## [CSS Basic](#css-basic)
 
-## [CSS Flexbox]()
+## [CSS Flexbox](#css-flexbox)
 
-## [CSS Grid]()
+## [CSS Grid](#css-grid)
+
+---
+
+# CSS Basic
+
+## Adding CSS to HTML (3 methods & precedence)
+
+```html
+<!-- Inline CSS -->
+  <h1 style="color: red;">Hello World</h1>
+
+<!-- Internal CSS -->
+<head>
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+
+<!-- External CSS -->
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+```
+
+## Understanding CSS syntax
+
+```css
+selector {
+    property: value;
+}
+```
+
+## CSS selectors and specificity
+
+```css
+/* Element selector */
+h1 {
+    color: red;
+}
+
+/* Class selector */
+.heading {
+    color: blue;
+}
+
+/* Id selector */
+#title {
+    color: green;
+}
+
+/* Specificity example */
+.heading#title {
+    color: yellow;
+}
+```
+
+## Working with CSS fonts
+
+```css
+/* Font family */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Font size */
+h1 {
+    font-size: 3rem;
+}
+
+/* Font weight */
+h2 {
+    font-weight: bold;
+}
+```
+
+## Using CSS color effectively
+
+```css
+/* Hex code */
+h1 {
+    color: #ff0000;
+}
+
+/* RGB */
+.heading {
+    color: rgb(0, 255, 0);
+}
+
+/* HSL */
+#title {
+    color: hsl(240, 100%, 50%);
+}
+```
+
+## CSS backgrounds and gradients
+
+```css
+/* Background color */
+body {
+    background-color: #fff;
+}
+
+/* Background image */
+.container {
+    background-image: url(bg.jpg);
+}
+
+/* Linear gradient */
+.heading {
+    background: linear-gradient(to bottom, #ff0000, #0000ff);
+}
+
+/* Radial gradient */
+.title {
+    background: radial-gradient(circle, #ff0000, #0000ff);
+}
+```
+
+## Creating CSS borders and shape
+
+```css
+/* Border */
+.container {
+    border: 1px solid black;
+}
+
+/* Border radius */
+.box {
+    border-radius: 10px;
+}
+
+/* Box shadow */
+.heading {
+    box-shadow: 5px 5px 10px #888888;
+}
+
+/* Triangle */
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 50px solid red;
+    border-right: 50px solid transparent;
+}
+
+/* Circle */
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+}
+```
+
+## Understanding the CSS box model
+
+```css
+/* Content box */
+.container {
+    width: 300px;
+    height: 200px;
+}
+
+/* Padding box */
+.container {
+    padding: 10px;
+}
+
+/* Border box */
+.container {
+    border: 1px solid black;
+}
+
+/* Margin box */
+.container {
+    margin: 10px;
+}
+```
+
+## Formatting CSS text
+
+```css
+/* Text alignment */
+h1 {
+    text-align: center;
+}
+
+/* Text decoration */
+a {
+    text-decoration: none;
+}
+
+/* Text transformation */
+.heading {
+    text-transform: uppercase;
+}
+
+/* Letter spacing */
+.title {
+    letter-spacing: 2px;
+}
+
+/* Line height */
+p {
+    line-height: 1.5;
+}
+```
+
+## Creating CSS Links
+
+```css
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: green;
+}
+```
+
+## Using CSS Display Property
+
+```css
+/* block-level element */
+div {
+    display: block;
+}
+
+/* inline-level element */
+span {
+    display: inline;
+}
+
+/* inline-block element */
+img {
+    display: inline-block;
+}
+```
+
+## Positioning Elements with CSS
+
+```css
+/* static positioning (default) */
+div {
+    position: static;
+}
+
+/* relative positioning */
+div {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+/* absolute positioning */
+div {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+/* fixed positioning */
+div {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+}
+
+/* sticky */
+div {
+    position: sticky;
+}
+```
+
+## CSS Media Queries
+
+```css
+/* Small screens (mobile devices) */
+@media only screen and (max-width: 767px) {
+    /* Styles go here */
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles go here */
+}
+
+/* Large screens (desktops) */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    /* Styles go here */
+}
+
+/* Extra large screens (large desktops) */
+@media only screen and (min-width: 1280px) {
+    /* Styles go here */
+}
+```
+
+<br>
+
+---
