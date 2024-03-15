@@ -12,7 +12,7 @@
 
 # CSS Basic
 
-## Adding CSS to HTML (3 methods & precedence)
+## Adding CSS to HTML (3 Methods & Precedence)
 
 ```html
 <!-- Inline CSS -->
@@ -33,7 +33,7 @@
 </head>
 ```
 
-## Understanding CSS syntax
+## Understanding CSS Syntax
 
 ```css
 selector {
@@ -41,7 +41,7 @@ selector {
 }
 ```
 
-## CSS selectors and specificity
+## CSS Selectors and Specificity
 
 ```css
 /* Element selector */
@@ -65,7 +65,7 @@ h1 {
 }
 ```
 
-## Working with CSS fonts
+## Working with CSS Fonts
 
 ```css
 /* Font family */
@@ -84,7 +84,7 @@ h2 {
 }
 ```
 
-## Using CSS color effectively
+## Using CSS Color Effectively
 
 ```css
 /* Hex code */
@@ -103,7 +103,7 @@ h1 {
 }
 ```
 
-## CSS backgrounds and gradients
+## CSS Backgrounds and Gradients
 
 ```css
 /* Background color */
@@ -127,7 +127,7 @@ body {
 }
 ```
 
-## Creating CSS borders and shape
+## Creating CSS Borders and Shapes
 
 ```css
 /* Border */
@@ -162,7 +162,7 @@ body {
 }
 ```
 
-## Understanding the CSS box model
+## Understanding the CSS Box Model
 
 ```css
 /* Content box */
@@ -187,7 +187,7 @@ body {
 }
 ```
 
-## Formatting CSS text
+## Formatting CSS Text
 
 ```css
 /* Text alignment */
