@@ -10,7 +10,7 @@
 
 ---
 
-# CSS Basic
+<h1 id="css-basic">CSS Basic</h1>
 
 ## Adding CSS to HTML (3 Methods & Precedence)
 
@@ -322,7 +322,7 @@ div {
 
 ---
 
-# CSS Flexbox
+<h1 id="css-flexbox">CSS Flexbox</h1>
 
 ## Display Property
 
@@ -449,4 +449,142 @@ div {
 
 ---
 
-# CSS Grid
+<h1 id="css-grid">CSS Grid</h1>
+
+## Grid Template Columns
+
+```css
+/* Defines the columns of the grid */
+.container {
+    gird-template-columns: 100px 100px 100px;
+}
+```
+
+## Grid Template Rows
+
+```css
+/* Defines the rows of the grid */
+.container {
+    grid-template-rows: 100px 100px 100px;
+}
+```
+
+## Grid Template Areas
+
+```css
+/* Defines the areas of the grid */
+.container {
+    grid-template-areas:
+      "header header header"
+      "content content sidebar"
+      "footer footer footer"
+}
+```
+
+## Gap
+
+```css
+/* Specifies the size of the gap between grid items */
+.container {
+    gap:10px;
+}
+```
+
+## Justify Items
+
+```css
+/* Aligns items along the inline (row) axis */
+.container {
+    justify-items: center;
+}
+```
+
+## Align Items
+
+```css
+/* Align items along the block (column) axis */
+.container {
+    align-items: center;
+}
+```
+
+## Justify Content
+
+```css
+/* Aligns the grid along the inline (row) axis */
+.container {
+    justify-content: center;
+}
+```
+
+## Align Content
+
+```css
+/* Aligns the grid along the block (column) axis */
+.container {
+    align-content: center;
+}
+```
+
+## Grid Column Start
+
+```css
+/* Specifies the start position of a grid item along the inline (row) axis */
+.item {
+    grid-column-start: 1;
+}
+```
+
+## Grid Column End
+
+```css
+/* Specifies the end position of a grid item along the inline (row) axis */
+.item {
+    grid-column-end: 3;
+}
+```
+
+## Grid Row Start
+
+```css
+/* Specifies the start position of a grid item along the block (column) axis */
+.item {
+    grid-row-start: 1;
+}
+```
+
+## Grid Row End
+
+```css
+/* Specifies the end position of a grid item along the block (column) axis */
+.item {
+    grid-row-end: 1;
+}
+```
+
+## Grid Area
+
+```css
+/* Specifies both the start and end positions of a grid item */
+.item {
+    grid-area: 1 / 1 / 3 / 3; /* start-row / start-column / end-row / end-column */
+}
+```
+
+## Justify Self
+
+```css
+/* Aligns a grid item along the inline (row) axis. */
+  .item {
+    justify-self: center;
+  }
+```
+
+## Align Self
+
+```css
+/* Aligns a grid item along the block (column) axis. */
+  .item {
+    align-self: center;
+  }
+```
